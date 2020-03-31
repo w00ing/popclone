@@ -28,7 +28,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://mondaoporosis.github.io/nomflix",
+  "homepage": "https://stupefied-albattani-b18a45.netlify.com",
   "browserslist": {
     "production": [
       ">0.2%",
