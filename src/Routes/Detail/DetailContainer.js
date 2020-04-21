@@ -6,22 +6,22 @@ export default class extends React.Component {
   constructor(props) {
     super(props);
     const {
-      location: { pathname }
+      location: { pathname },
     } = props;
     this.state = {
       result: null,
       loading: true,
       error: null,
-      isMovie: pathname.includes("/movie/")
+      isMovie: pathname.includes("/movie/"),
     };
   }
 
   async componentDidMount() {
     const {
       match: {
-        params: { id }
+        params: { id },
       },
-      history: { push }
+      history: { push },
     } = this.props;
     const { isMovie } = this.state;
     const parsedId = parseInt(id);
@@ -43,7 +43,14 @@ export default class extends React.Component {
   }
 
   render() {
-    const { result, loading, error } = this.state;
-    return <DetailPresenter result={result} loading={loading} error={error} />;
+    const { result, loading, error, isMovie } = this.state;
+    return (
+      <DetailPresenter
+        result={result}
+        loading={loading}
+        error={error}
+        isMovie={isMovie}
+      />
+    );
   }
 }

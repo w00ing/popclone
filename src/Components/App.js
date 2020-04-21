@@ -6,6 +6,7 @@ class App extends Component {
   render() {
     return (
       <>
+        {console.log(process.env.API_KEY)}
         <Router />
         <GlobalStyles />
       </>

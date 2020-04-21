@@ -22,11 +22,12 @@ Learning React and ES6 by building a Movie Discovery App
 
 ## Code Challenges
 
-- [ ] IMDB link
-- [ ] Tabs inside of Movie / Show Details (Youtube Videos, Production Company, Countries (with emoji flag))
+- [ ] IMDB link of the TV Show/Movie
+- [ ] Two tabs inside of Movie / Show Details (Youtube Videos, Production Company, Countries (with emoji flag))
 - [ ] Collections Link
 - [ ] /collections Route
-- [ ] On TV show, show seasons and creators
+- [ ] On TV Shows only, add a tab 'Seasons' to show all the seasons of the show with posters
+
 
 # Preview:
 
