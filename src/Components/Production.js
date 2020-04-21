@@ -10,7 +10,7 @@ const Container = styled.div`
 const Tab = styled.div`
   width: 50%;
   margin: 15px;
-  font-size: 16px;
+  font-size: 14px;
 `;
 
 const Item = styled.div`
