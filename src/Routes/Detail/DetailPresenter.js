@@ -25,6 +25,8 @@ const openTab = (e, tabName) => {
   e.target.style.color = "white";
 };
 
+const noContent = "No content could be found.";
+
 const Container = styled.div`
   height: calc(100vh - 50px);
   width: 100%;
@@ -219,7 +221,11 @@ const DetailPresenter = ({ result, loading, error, isMovie }) =>
             className="tabContent"
             style={{ display: "block" }}
           >
-            <Trailers videos={result.videos.results}></Trailers>
+            {result.videos.results.length !== 0 ? (
+              <Trailers videos={result.videos.results}></Trailers>
+            ) : (
+              <Item>{noContent}</Item>
+            )}
           </TabContent>
           <TabContent
             id="production"
