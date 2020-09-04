@@ -1,13 +1,13 @@
-# Nomflix
+# Popclone
 
-Learning React and ES6 by building a Movie Discovery App
+Learning React and ES6 by cloning a Popcorntime App
 
 ## Screens
 
-- [ ] Home
-- [ ] TV Shows
-- [ ] Search
-- [ ] Detail
+- [x] Home
+- [x] TV Shows
+- [x] Search
+- [x] Detail
 
 ## API Verbs
 
@@ -22,11 +22,11 @@ Learning React and ES6 by building a Movie Discovery App
 
 ## Code Challenges
 
-- [ ] IMDB link of the TV Show/Movie
-- [ ] Two tabs inside of Movie / Show Details (Youtube Videos, Production Company, Countries (with emoji flag))
-- [ ] Collections Link
-- [ ] /collections Route
-- [ ] On TV Shows only, add a tab 'Seasons' to show all the seasons of the show with posters
+- [x] IMDB link of the TV Show/Movie
+- [x] Two tabs inside of Movie / Show Details (Youtube Videos, Production Company, Countries (with emoji flag))
+- [x] Collections Link
+- [x] /collections Route
+- [x] On TV Shows only, add a tab 'Seasons' to show all the seasons of the show with posters
 
 
 # Preview:
